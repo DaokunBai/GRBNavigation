@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
-  s.name         = "GestureNavi"
-  s.version      = "0.0.5"
+  s.name         = "GRBNavigation"
+  s.version      = "0.0.1"
   s.summary      = "Yes ,this is my Summary is A short description of KNavigate."
   s.frameworks = 'UIKit'
   s.requires_arc = true
   s.platform = :ios
   s.ios.deployment_target = '8.0'
   s.description  = "this is the description you know ? yes ,so ,what do you want to do?Yes you are right"
-  s.homepage     = "https://github.com/yangyueguang/CocoapodsTest"
+  s.homepage     = "https://github.com/yangyueguang/GRBNavigation"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
@@ -22,8 +22,9 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
-  s.source       = { :git => "https://github.com/yangyueguang/CocoapodsTest.git", :tag => "#{s.version}" }
-  s.source_files  = "GestureNavi", "GestureNavi/*.{h,m}"
+  s.source       = { :git => "https://github.com/yangyueguang/GRBNavigation.git", :tag => "#{s.version}" }
+  s.source_files  = "GRBNavigation"
+#, "GestureNavi/*.{h,m}"
   # s.public_header_files = "Classes/**/*.h"
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
