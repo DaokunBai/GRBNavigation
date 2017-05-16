@@ -49,15 +49,15 @@ Pod::Spec.new do |s|
 #git push
 #pod spec create name ////touch name.podspec
 #vim name.podspec
-#pod lib lint name.podspec —allow-warnings
+#pod lib lint name.podspec -—allow-warnings
 #lib lint —verbose
 #更新release。 github
 #git tag 1.0.1    #给源代码打版本标签，与podspec文件中version一致即可
 #git push --tag
 #echo "3.0" > .swift-version.  如果swift版本不对的话s.dependency "SDWebImage", "~> 3.7.1"
-#pod trunk register 2829969299@qq.com ‘yangyueguang’ -description=‘薛超’
+#pod trunk register 2829969299@qq.com ‘yangyueguang’ --description=‘薛超’
 #Pod trunk me
-#pod spec lint —allow-warnings
+#pod spec lint -—allow-warnings
 #pod trunk push name.podspec.—allow-warnings
 #pod repo update
 #pod search name
