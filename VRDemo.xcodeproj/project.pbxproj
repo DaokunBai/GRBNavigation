@@ -21,7 +21,6 @@
 		8966B3551DF6691F0056C727 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8966B3531DF6691F0056C727 /* LaunchScreen.storyboard */; };
 		8966B3601DF6691F0056C727 /* VRDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8966B35F1DF6691F0056C727 /* VRDemoTests.swift */; };
 		8966B36B1DF6691F0056C727 /* VRDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8966B36A1DF6691F0056C727 /* VRDemoUITests.swift */; };
-		8966B38A1DF669610056C727 /* demo.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 8966B3871DF669610056C727 /* demo.m4v */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +63,6 @@
 		8966B3661DF6691F0056C727 /* VRDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8966B36A1DF6691F0056C727 /* VRDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRDemoUITests.swift; sourceTree = "<group>"; };
 		8966B36C1DF6691F0056C727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8966B3871DF669610056C727 /* demo.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.m4v; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +135,6 @@
 				8966B34E1DF6691F0056C727 /* Main.storyboard */,
 				8966B3511DF6691F0056C727 /* Assets.xcassets */,
 				8966B3531DF6691F0056C727 /* LaunchScreen.storyboard */,
-				8966B3871DF669610056C727 /* demo.m4v */,
 				8966B3561DF6691F0056C727 /* Info.plist */,
 			);
 			path = VRDemo;
@@ -229,7 +226,7 @@
 				TargetAttributes = {
 					8966B3461DF6691F0056C727 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = VKUARJ32E2;
+						DevelopmentTeam = 968Q63C2Z7;
 						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
@@ -276,7 +273,6 @@
 				8966B3521DF6691F0056C727 /* Assets.xcassets in Resources */,
 				7D8CBD2B1ECB237F0072C6A8 /* Shader.vsh in Resources */,
 				8966B3501DF6691F0056C727 /* Main.storyboard in Resources */,
-				8966B38A1DF669610056C727 /* demo.m4v in Resources */,
 				7D8CBD2A1ECB237F0072C6A8 /* Shader.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,7 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = VKUARJ32E2;
+				DEVELOPMENT_TEAM = 968Q63C2Z7;
 				INFOPLIST_FILE = VRDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -476,7 +472,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = VKUARJ32E2;
+				DEVELOPMENT_TEAM = 968Q63C2Z7;
 				INFOPLIST_FILE = VRDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
