@@ -36,7 +36,11 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-
+  s.subspec 'VRPlayer' do |ss|
+    ss.source_files = 'VRPlayer'
+  # ss.public_header_files = 'VRPlayer/*.h'
+    ss.ios.frameworks = 'MobileCoreServices'
+  end
 
 
 #error
@@ -58,7 +62,7 @@ Pod::Spec.new do |s|
 #pod trunk register 2829969299@qq.com ‘yangyueguang’ --description=‘薛超’
 #Pod trunk me
 #pod spec lint -—allow-warnings
-#pod trunk push name.podspec.—allow-warnings
+#pod trunk push name.podspec -—allow-warnings
 #pod repo update
 #pod search name
 
